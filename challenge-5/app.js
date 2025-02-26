@@ -74,7 +74,7 @@ function autoPlayImages() {
   intervalId = setInterval(() => {
     currInd = (currInd + 1) % images.length;
     displayImage();
-  }, 1000)
+  }, 5000)
 }
 
 function stopAutoPlay() {
